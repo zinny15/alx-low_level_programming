@@ -1,19 +1,26 @@
-Task 1
-
-#include "main.h" 
+#include "main.h"
+#include <stdio.h>
 
 /**
-* _memcpy -> memory copy
-* @dest: is destination memory
-* @src: is source memory
-* @n: number of bytes to be copied
-* Return: string copied from source
-**/
-char *_memcpy(char *dest, char *src, unsigned int n)
+* _strchr -> string character
+* @s: string given
+* @c: another char
+* Return: a string
+*/
+char *_strchr(char *s, char c)
 {
-	unsigned int a;
+	int a;
 
-	for (a = 0; a < n; a++)
-	dest[a] = src[a];
-	return (dest);
+	while (1)
+	{
+		a = *s++;
+		if (a == c)
+	{
+		return (s - 1);
+	}
+	if (a == 0)
+	{
+		return (NULL);
+	}
+	}
 }
