@@ -1,12 +1,9 @@
 #include <stdio.h>
-/**
-* main - starting point
-*
-* Description: 'Main program'
-*
-* Return: 0 (success)
-*/
 
+/**
+ *main-program entry point.
+ *Return:0 no error, non zero if error.
+ **/
 int main(void)
 {
 	char i;

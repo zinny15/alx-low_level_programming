@@ -1,1 +1,2 @@
-Static_librabries
+# Static Libraries in C programming
+
